@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafeteria Havanna</title>
+ <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="img/log1.png" alt="Logo da Cafeteria Havanna">
+    <h1>Havanna</h1>
+    <button id="darkModeToggle"><span>🌙</span></button>
+  </header>
+
+  <nav class="menu-selector">
+    <button onclick="showCategory('quentes')">Bebidas Quentes</button>
+    <button onclick="showCategory('salgados')">Salgados</button>
+    <button onclick="showCategory('geladas')">Bebidas Geladas</button>
+    <button onclick="showCategory('doces')">Doces</button>
+    <button onclick="showCategory('sanduiches')">Sanduíches</button>
+    <button onclick="showCategory('tortas')">Tortas</button>
+    <button onclick="showCategory('sorvetes')">Sorvetes</button>
+  </nav>
+
+  <main>
+    <div id="categorias-container">
+      <div class="categoria" onclick="showCategory('quentes')">Bebidas Quentes</div>
+      <div class="categoria" onclick="showCategory('salgados')">Salgados</div>
+      <div class="categoria" onclick="showCategory('geladas')">Bebidas Geladas</div>
+      <div class="categoria" onclick="showCategory('doces')">Doces</div>
+      <div class="categoria" onclick="showCategory('sanduiches')">Sanduíches</div>
+      <div class="categoria" onclick="showCategory('tortas')">Tortas</div>
+      <div class="categoria" onclick="showCategory('sorvetes')">Sorvetes</div>
+    </div>
+    <!-- QUENTES -->
+      <section id="quentes" class="produto-grid categoria ativa">
+      <div class="produto">
+        <h3>Cappuccino Havanna</h3>
+        <img src="img/CappHVN.png">
+        <p>Combinação perfeita de café espresso, leite vaporizado e doce de leite Havanna.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Choco Havanna</h3>
+        <img src="img/ChoHVN.png">
+        <p>Chocolate quente cremoso com toque de doce de leite e cobertura de chantilly.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Cappuccino Vienense</h3>
+        <img src="img/CAPPVI.png">
+        <p>Café encorpado com leite cremoso, coberto com chantilly e canela.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Cappuccino Havanna</h3>
+        <img src="img/CappHVN.png">
+        <p>Combinação perfeita de café espresso, leite vaporizado e doce de leite Havanna.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Choco Havanna</h3>
+        <img src="img/ChoHVN.png">
+        <p>Chocolate quente cremoso com toque de doce de leite e cobertura de chantilly.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Cappuccino Vienense</h3>
+        <img src="img/CAPPVI.png">
+        <p>Café encorpado com leite cremoso, coberto com chantilly e canela.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Cappuccino Havanna</h3>
+        <img src="img/CappHVN.png">
+        <p>Combinação perfeita de café espresso, leite vaporizado e doce de leite Havanna.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Choco Havanna</h3>
+        <img src="img/ChoHVN.png">
+        <p>Chocolate quente cremoso com toque de doce de leite e cobertura de chantilly.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Cappuccino Vienense</h3>
+        <img src="img/CAPPVI.png">
+        <p>Café encorpado com leite cremoso, coberto com chantilly e canela.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+            <div class="produto">
+        <h3>Cappuccino Havanna</h3>
+        <img src="img/CappHVN.png">
+        <p>Combinação perfeita de café espresso, leite vaporizado e doce de leite Havanna.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+    </section>
+
+    <section id="salgados" class="produto-grid categoria ativa">
+      <div class="produto">
+        <h3>Empanada Clássica</h3>
+        <img src="img/empanada.png">
+        <p>Empanada assada com recheio de carne temperada no estilo argentino.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Empanada de Presunto e Queijo</h3>
+        <img src="img/Empanada de Presunto e Queijo.png">
+        <p>Massa crocante recheada com presunto artesanal e queijo derretido.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+       <div class="produto">
+        <h3>Empanada Clássica</h3>
+        <img src="img/empanada.png">
+        <p>Empanada assada com recheio de carne temperada no estilo argentino.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Empanada de Presunto e Queijo</h3>
+        <img src="img/Empanada de Presunto e Queijo.png">
+        <p>Massa crocante recheada com presunto artesanal e queijo derretido.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+       <div class="produto">
+        <h3>Empanada Clássica</h3>
+        <img src="img/empanada.png">
+        <p>Empanada assada com recheio de carne temperada no estilo argentino.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Empanada de Presunto e Queijo</h3>
+        <img src="img/Empanada de Presunto e Queijo.png">
+        <p>Massa crocante recheada com presunto artesanal e queijo derretido.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+    </section>
+
+    <section id="geladas" class="produto-grid categoria"><p>Em breve...</p></section>
+    <section id="doces" class="produto-grid categoria"><p>Em breve...</p></section>
+    <section id="sanduiches" class="produto-grid categoria">
+      <div class="produto">
+        <h3>Torrada Havanna</h3>
+        <img src="img/TorradaP.png">
+        <p>Torrada crocante com cobertura de doce de leite e toque de canela.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Choripán Argentino</h3>
+        <img src="img/Choripan.png">
+        <p>Pão artesanal com linguiça grelhada, chimichurri e cebola caramelizada.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Torrada Havanna</h3>
+        <img src="img/TorradaP.png">
+        <p>Torrada crocante com cobertura de doce de leite e toque de canela.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      <div class="produto">
+        <h3>Choripán Argentino</h3>
+        <img src="img/Choripan.png">
+        <p>Pão artesanal com linguiça grelhada, chimichurri e cebola caramelizada.</p>
+        <strong>R$ 0,00 <em>(Amostra por enquanto)</em></strong>
+      </div>
+      
+    </section>
+    <section id="tortas" class="produto-grid categoria"><p>Em breve...</p></section>
+    <section id="sorvetes" class="produto-grid categoria"><p>Em breve...</p></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
