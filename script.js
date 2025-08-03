@@ -29,7 +29,7 @@ darkModeToggle.addEventListener("click", () => {
 
 function updateDarkModeButton() {
   const isDark = document.body.classList.contains("dark-mode");
-  darkModeToggle.innerHTML = isDark ? '<span>☀️</span>' : '<span>🌙</span>';
+  darkModeToggle.innerHTML = isDark ? '<span>☀️</span>' : '<span>🌑</span>';
   darkModeToggle.classList.toggle('light-mode', !isDark);
 }
 
