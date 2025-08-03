@@ -299,10 +299,8 @@ main {
   }
 
   header img {
-    width: 100px;
-    height: 90px;
-    top: 8px;
-    left: 0; /* Agora fica colado à esquerda */
+  padding-left: 110px; /* suficiente para não sobrepor a imagem */
+  text-align: left;    /* alinha o texto à esquerda, opcional */
   }
 
   #darkModeToggle {
