@@ -299,8 +299,10 @@ main {
   }
 
   header img {
-  padding-left: 110px; /* suficiente para não sobrepor a imagem */
-  text-align: left;    /* alinha o texto à esquerda, opcional */
+    width: 70px;
+    height: 90px;
+    top: 8px;
+    left: 1px; 
   }
 
   #darkModeToggle {
